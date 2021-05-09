@@ -6,6 +6,7 @@ var qr = require("qr-image");
 app.use(express.json());
 app.use("/images", express.static("./Images"));
 
+app.get("/", (req, res) => res.send("Email Service "));
 app.post("/", async (req, res) => {
     try {
         await email(req.body);
