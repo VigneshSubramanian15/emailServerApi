@@ -27,4 +27,4 @@ app.get("/qr/:text", async (req, res) => {
     }
 });
 
-app.listen(3000, () => console.log("Server Started"));
+app.listen(5001, () => console.log("Server Started"));
