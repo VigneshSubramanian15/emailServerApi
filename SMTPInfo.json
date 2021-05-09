@@ -1,0 +1,8 @@
+{
+	"directinstapay": {
+		"user": "support@directinstapay.com",
+		"pass": "PassworD!@#$%2021",
+		"host": "smtpout.secureserver.net",
+		"port": 465
+	}
+}
